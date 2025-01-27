@@ -1,0 +1,171 @@
+.flex-con{
+    display: flex;
+    flex-flow: row wrap; 
+        flex-direction:row;
+        justify-content:flex-start;
+        background-color:aqua;
+        align-items: flex-start;
+        height: 500px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    background-color:black;
+  }
+  
+  /* Header styling */
+  #header {
+    width: 100%;
+    height: 400px; 
+    background-color:black; 
+    display: flex;
+    justify-content:space-around 10px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border: solid 10px black;
+
+  }
+  
+  /* Container styling */
+  .container {
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    background-size: cover; 
+    background-position: center;
+    border-radius: 50px; 
+  }
+  
+  
+  .container:nth-child(1) {
+    background-image: url('-5A8hKz7CMFfmEvSwnvJzPp45m0fGife48hF0DE9hLCPXwii7UqVHm-FU1pyKINxQlI7A419oLem9S9y5EhBfptMqDisXa-k99Re8NLl0R6xvs_FGNtsfMK1Mo2GTJpuDl-fJziNd6JIP1KssuY6T6Fz8WL0jPGP9HfS_LBaW2U.webp');
+  }
+  
+  .container:nth-child(2) {
+    background-image: url('-5A8hKz7CMFfmEvSwnvJzCPV3JGKIoDEu1VJ1xvKd_L1nI413Wzt3yNcK1VSuAPqKf79zYV6am4NOrN89419-iF9Q6T0BLUWA3_R2Hsb2Eu84Fb0Qsb5aN_iE6FaOSaeMgZgKKzZpulexuX8bOvdDOFi_2eXeIR4muY4J7_CgE4.webp');
+  }
+  
+  .container:nth-child(3) {
+    background-image: url('-5A8hKz7CMFfmEvSwnvJzFO3b9Rksl9CexMup0ULKpg3ugDwsbWyV2Uru3Cq2zhTMx8yvfwnqGpWdzFoB5OvHz8Sv0U4cqM5AbBlRJNkBUfDBAHEUZGgtx3k8gsZr0si2ieynSzlUYoU6ujZMQJG8SeC5IR0riPjRrLd_COuvys.webp');
+  }
+  
+  .container:nth-child(4) {
+    background-image: url('-5A8hKz7CMFfmEvSwnvJzDL_v1ZJ97aLjz5aUi4yjkB6oeDfCFeJ9UMIllXyyscWjq5zgqn3u89wmhx_lnH4jekHnoM4b519Zswo2UX6XU7aURk8PMugstVtIbqpJM0PreUG7haKJtnLtJLcie1pOwYaeIssiV0m_pgimPyA0D4.webp');
+  }
+  
+  .container:nth-child(5) {
+    background-image: url('-5A8hKz7CMFfmEvSwnvJzETXVZqLU-Ynz-u-esBmU12LfZs676D1gTsPPY-v9Ex8Os31lyK993CHwDDzvZKN6s0YRn4FUZNa3I_iCIe-lGwizE8RdaIXwagE5EJsd7iDg6zpFz9vCGCK2Yin6bNM_x8jynqjQtxfNy06QjssHro.webp');
+  }
+  
+  .container:nth-child(6) {
+    background-image: url('-5A8hKz7CMFfmEvSwnvJzB0JW8WH1CUJUV5g3k_RNx4JaCo7Fj2dLX7PBP3Iw16xyckSnJeSl0P5OUkwVPA7hajDPqgypIP-2GtZqsWH4VO28Hk8VoPHacqRBW6JGyvKdGz7fUyhZ_c19eev_QNU9ayMF25aAadISIJcJjsVvpY.webp');
+  }
+  
+  .container:nth-child(7) {
+    background-image: url('-5A8hKz7CMFfmEvSwnvJzGG8C287vnUfc5f6CFVwU87SUrdXZL_NktmUg0V0UZjxIDHpEoIOkVj051QCFeN4KEjo9x5YmxDcxAHAyYS1jKmG34AQ1vnZuX8raliQUm5PuPnpW4Uq7lN__WEEKfZ1wIBhbxed6FfX9mARTL9Qxxs.webp');
+  }
+  
+  /* Overlay styling */
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    border-radius: 8px;
+  }
+  
+  /* Text styling */
+  .text {
+    color: #fff; 
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Hover effect */
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  /* Zigzag position styling */
+  .container:nth-child(all) {
+    transform: translateY(20px); 
+  }
+  
+  .container:nth-child(all) {
+    transform: translateY(20px); 
+  }
+  
+
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+h1:hover {transition: 2s;
+    color: #880808 ; 
+ }
+
+.flex-con > div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+.felx-conn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(58, 55, 53);
+    height: 500px;
+    border: solid 50px black;
+    border-radius: 80px; 
+
+
+}
+
+#left-div1 {
+    background-color: darkgreen;
+    height: 300px;
+    width: 300px;
+    border: solid 5px white;
+}
+
+#right-div2 {
+    background-color: rgb(168, 93, 184);
+    height: 300px;
+    width: 300px;
+    border: solid 5px white;
+}
+
+
+#mrC{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+p{
+    color: ghostwhite;
+    font-style:italic;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
