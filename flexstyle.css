@@ -1,0 +1,96 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    background-color: rgb(217, 129, 94);
+    height: 500px; /* Sets the container height */
+    padding: 20px; /* Adds spacing around the content */
+}
+
+h1 {
+    text-align: center;
+    color: #320f8b;
+    margin-bottom: 20px; /* Adds space between the heading and the container */
+}
+
+.flex-container > div {
+    width: 150px; 
+    height: 150px; 
+    margin: 10px; /* Adds space between the boxes */
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    display: flex; /* Makes the individual box a flex container */
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    font-weight: bold; /* Makes text more prominent */
+    border-radius: 75px; 
+}
+
+/* Individual box styles */
+#div1 {
+    background-color: aqua;
+    color: #320f8b;
+}
+#div2 {
+    background-color: honeydew;
+    color: #320f8b;
+}
+#div3 {
+    background-color: maroon;
+    color: #320f8b;
+}
+#div4 {
+    background-color: navy;
+    color: #320f8b;
+}
+#div5 {
+    background-color: greenyellow;
+    color: #320f8b;
+}
+#div6 {
+    background-color: green;
+    color: #320f8b;
+}
+.Flex-container3{ 
+    text-align:start;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: violet;
+    align-items: center;
+    border: solid 10px black;
+    height: 500px; 
+}
+#left-div1{
+    width: 300px;
+    height: 150px;
+    border: 5px solid black;
+    margin: 10px;
+    align-self: flex-start;
+    
+}
+#right-div2{
+    width: 300px;
+    height: 150px;
+    border: 5px solid black;
+    margin: 10px;
+    align-self: first baseline;
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg")
+}
+#img1{
+    height: 150px;
+    width: 300px;
+}
+#img2{
+    height: 100%;
+    width: 100%;
+}
+#para1{
+    font-size: 15px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 500;
+    color: antiquewhite;
+}
