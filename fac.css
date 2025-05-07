@@ -1,0 +1,351 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+#ul {
+    align-self: start;
+}
+
+ h1{
+color: azure;
+font-size: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+align-self: center;
+}
+
+h2{
+    color: rgb(208, 217, 217);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(27, 1fr);
+    gap: 20px;
+    height: 500vh;
+}
+
+.div1 {
+background-color: #042c40;
+align-items: center;
+grid-column: 1 / -1;
+grid-row: 1 / span 3;
+justify-content: center;
+text-align: center;
+border-radius: 5px;
+}
+
+.div1 img{
+height: 40%;
+width: 100%;
+outline: 4px solid white; 
+    outline-offset: 5px;       
+    border-top-left-radius: 0px;  
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.div2 {
+    background-color: #737e99;
+    grid-column: 1 / 6;
+    grid-row: 4 / span 3;
+}
+
+div.scroll-container {
+    background-color:#042c40;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scroll-container img {
+    object-fit: contain;
+    margin-right: 100px; 
+    margin-left: 100px;
+    outline: 15px solid white; 
+    border-top-left-radius: 8px;  
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+.div3 {
+    background-color:#c2b29b;
+    grid-column: 6 / 11;
+    grid-row: 4/ span 3;
+    align-items: center;        
+    justify-content: center;    
+    flex-direction: column; 
+    place-items: center;       
+}
+
+
+.div3 h2{
+    color:#042c40;
+    text-align: center;
+   outline: 5px solid whitesmoke;
+   border-radius: 200px;
+   padding: 8px;
+   margin-bottom: 20px; 
+   
+}
+.div3 button{
+    background-color: #c2b29b;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    display: flex;
+}
+.div3 button:hover {
+    transform: scale(1.2);  
+}
+
+
+.div4 {
+    background-color: #eee4d8;
+    grid-column: 1 / -1;
+    grid-row: 7;
+}
+
+
+
+.div5 {
+    background-color: #c2b29b;
+    grid-column: 1 / 6;
+    grid-row: 8 / span 3;
+    align-items: center;        
+    justify-content: center;    
+    flex-direction: column; 
+    place-items: center;    
+}
+.div5 button{
+    background-color: #c5cad4;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    display: flex;
+}
+.div5 button:hover {
+    transform: scale(1.2);  
+}
+
+.div5 h2{
+    color:#042c40;
+    text-align: center;
+   outline: 5px solid whitesmoke;
+   border-radius: 200px;
+   padding: 8px;
+   margin-bottom: 20px; 
+   
+}
+
+.div6 {
+    background-color: #042c40;
+    grid-column: 6 / 11;
+    grid-row: 8 / span 3;
+}
+
+
+.div7 {
+    background-color:#eee4d8;
+    grid-column: 1 / -1;
+    grid-row: 11;
+}
+
+.div8 {
+    background-color:#042c40;
+    grid-column: 1 / 6;
+    grid-row: 12 / span 3;
+}
+
+.div9 {
+    background-color:#c2b29b;
+    grid-column: 6 / 11;
+    grid-row: 12 / span 3;
+    align-items: center;        
+    justify-content: center;    
+    flex-direction: column; 
+    place-items: center;       
+}
+
+
+.div9 h2{
+    color:#042c40;
+    text-align: center;
+   outline: 5px solid whitesmoke;
+   border-radius: 200px;
+   padding: 8px;
+   margin-bottom: 20px; 
+   
+}
+.div9 button{
+    background-color: #c2b29b;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    display: flex;
+}
+.div9 button:hover {
+    transform: scale(1.2);  
+}
+
+
+
+
+.div10 {
+    background-color: #eee4d8;
+    grid-column: 1 / -1;
+    grid-row: 15;
+}
+
+.div11 {
+    background-color: #c2b29b;
+    grid-column: 1 / 6;
+    grid-row: 16 / span 3;align-items: center;        
+    justify-content: center;    
+    flex-direction: column; 
+    place-items: center;       
+}
+
+
+.div11 h2{
+    color:#042c40;
+    text-align: center;
+   outline: 5px solid whitesmoke;
+   border-radius: 200px;
+   padding: 8px;
+   margin-bottom: 20px; 
+   
+}
+.div11 button{
+    background-color: #c2b29b;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    display: flex;
+}
+.div11 button:hover {
+    transform: scale(1.2);  
+}
+
+
+
+
+.div12 {
+    background-color:#042c40;
+    grid-column: 6 / 11;
+    grid-row: 16 / span 3;
+}
+
+.div13 {
+    background-color: #eee4d8;
+    grid-column: 1 / -1;
+    grid-row: 19;
+}
+
+.div14 {
+    background-color:#042c40;
+    grid-column: 1 / 6;
+    grid-row: 20 / span 3;
+}
+
+.div15 {
+    background-color: #c2b29b;
+    grid-column: 6 / 11;
+    grid-row: 20 / span 3;
+    align-items: center;        
+    justify-content: center;    
+    flex-direction: column; 
+    place-items: center;       
+}
+
+
+.div15 h2{
+    color:#042c40;
+    text-align: center;
+   outline: 5px solid whitesmoke;
+   border-radius: 200px;
+   padding: 8px;
+   margin-bottom: 20px; 
+   
+}
+.div15 button{
+    background-color: #c2b29b;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    display: flex;
+}
+.div15 button:hover {
+    transform: scale(1.2);  
+}
+
+
+
+
+.div16 {
+    background-color: #eee4d8;
+    grid-column: 1 / -1;
+    grid-row: 23;
+}
+
+.div17 {
+    background-color: #c2b29b;
+    grid-column: 1 / 6;
+    grid-row: 24 / span 3;
+    align-items: center;        
+    justify-content: center;    
+    flex-direction: column; 
+    place-items: center;       
+}
+
+
+.div17 h2{
+    color:#042c40;
+    text-align: center;
+   outline: 5px solid whitesmoke;
+   border-radius: 200px;
+   padding: 8px;
+   margin-bottom: 20px; 
+   
+}
+.div17 button{
+    background-color: #c2b29b;
+    border-radius: 40px;
+    font-size: 18px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition: transform 0.9s ease;
+    display: flex;
+}
+.div17 button:hover {
+    transform: scale(1.2);  
+}
+
+
+
+.div18 {
+    background-color:#042c40;
+    grid-column: 6 / 11;
+    grid-row: 24 / span 3;
+}
+
+.div19 {
+    background-color: #eee4d8;
+    grid-column: 1 / -1;
+    grid-row: 27;
+}
