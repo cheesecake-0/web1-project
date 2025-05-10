@@ -2,14 +2,18 @@ body {
     background-color: #E2DFD2;
     color: #333333;
     line-height: 1.6;
+    margin:0;
+    background: #383a9c;
+    background: linear-gradient(90deg, rgba(56, 58, 156, 1) 0%, rgba(0, 0, 51, 1) 50%, rgba(56, 58, 156, 1) 100%);
 }
 
 .banner {
     position: relative;
     text-align: center;
-    background: #E2DFD2;
+    background: transparent;
     color: linen;
     padding: 60px 20px;
+    margin-top: 10px;
 }
 
 .banner-img {
@@ -33,6 +37,7 @@ body {
 .activities-section {
     max-width: 900px;
     margin: 50px auto;
+    margin-top: 0;
     background: white;
     padding: 30px;
     border-radius: 10px;
@@ -56,7 +61,7 @@ body {
     justify-content: space-between;
     gap: 20px;
     max-width: 900px;
-    height: 300px;
+    height: 350px;
     margin: 50px auto;
 }
 
@@ -105,3 +110,44 @@ footer {
     margin-top: 50px;
     font-size: 1rem;
 }
+
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 100%;
+    z-index: 999;
+  }
+
+
+  #navbar a li{
+list-style: none;
+
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:  10px 10px;
+    text-decoration:none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #dddddd69;
+    color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  #navbar a.active {
+    background-color: #042e43;
+    color: #E2DFD2;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
